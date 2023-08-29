@@ -14,6 +14,7 @@ public class cam : MonoBehaviour
     void Update()
     {
         Vector3 pos = GameObject.FindGameObjectWithTag("Playa").transform.position;
-        this.transform.position = new Vector3(pos.x - 2f, pos.y, pos.z +2f);
+        this.transform.position = new Vector3(pos.x, pos.y+2f, pos.z -10f);
+        
     }
 }
